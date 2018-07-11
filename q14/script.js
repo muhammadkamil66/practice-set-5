@@ -1,6 +1,16 @@
-let sentence= "";
-for(let numb = 11; numb <= 85; numb++){
-	sentence= sentence + "" + numb + " ~ ";
-}
+let y;
+let x = 10;
+let d = "";
 
-	console.log(sentence);
+for(let v = 1; v <= 8; v++){
+	for(y = 0; y < 5; y++){
+
+		x++;
+		d = d + x + (y<4? " ~ " : "");
+	}
+
+	x = 10 * v;
+	console.log(d);
+	d = "";
+	x += 10;
+}

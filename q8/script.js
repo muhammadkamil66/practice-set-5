@@ -1,7 +1,7 @@
-let t=0;
+let count=0;
 for(let numb = 7; numb <= 82; numb++){
 	if(numb%2 == 0){
-		t++;
+		count++;
 	}
 }
-console.log(t);
+console.log(count);
